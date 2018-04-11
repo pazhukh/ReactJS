@@ -31,3 +31,16 @@ this.props.children - виведе все що знаходиться між <Bu
 *******            *******
 ******* this.state *******
 *******            *******
+
+class Example extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = { mood: 'decent' };
+  }
+
+  render() {
+    return <div></div>;
+  }
+}
+
+<Example />
