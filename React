@@ -19,6 +19,11 @@ ReactDOM.render(
 //якщо не заданий prop, тоді виведе "I am a button"
 Button.defaultProps = {text: 'I am a button'};
 
+*******            *******
+******* this.props *******
+*******            *******
+
+
 //виводимо місткість компонента, який передається в компоненті
 this.props.children - виведе все що знаходиться між <Button><Button/>
 
