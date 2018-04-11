@@ -21,3 +21,8 @@ Button.defaultProps = {text: 'I am a button'};
 
 //виводимо місткість компонента, який передається в компоненті
 this.props.children - виведе все що знаходиться між <Button><Button/>
+
+
+*******            *******
+******* this.state *******
+*******            *******
