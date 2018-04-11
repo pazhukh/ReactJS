@@ -1,0 +1,20 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
+
+//компонент
+class Button extends React.Component {
+  render() {
+    return (
+      <button>{this.props.text}</button>
+    );
+  }
+}
+//рендеримо
+ReactDOM.render(
+  <Button text="Button"/>, 
+  document.getElementById('app')
+);
+
+// defaultProps goes here:
+//якщо не заданий prop, тоді виведе "I am a button"
+Button.defaultProps = {text: 'I am a button'};
